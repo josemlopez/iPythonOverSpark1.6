@@ -53,9 +53,9 @@ Link Spark with IPython Notebook
 In the master machine and using vi create a file name: .pysparkProfile 
 
 ```shell
-echo "export PATH=$PATH:/path_to_downloaded_spark/spark-1.6.0/bin"
-echo "export PYSPARK_DRIVER_PYTHON=ipython"
-echo "export PYSPARK_DRIVER_PYTHON_OPTS='notebook --ip=0.0.0.0' pyspark
+export PATH=$PATH:/path_to_downloaded_spark/spark-1.6.0/bin
+export PYSPARK_DRIVER_PYTHON=ipython
+export PYSPARK_DRIVER_PYTHON_OPTS='notebook --ip=0.0.0.0' pyspark
 ```
 
 Now you can source it to make changes available in this terminal
