@@ -31,14 +31,14 @@ For the second worker it's exactly the same.
 
 Now that our cluster is up and running let's start the install of the iPython:
 
-Install MinoCnaconda
+Install Anaconda
 ----------------------------
 In each of our machines:
 
 ```shell
-wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh
-chmod +x Miniconda-latest-Linux-x86_64.sh
-./Miniconda-latest-Linux-x86_64.sh
+wget https://3230d63b5fc54e62148e-c95ac804525aac4b6dba79b00b39d1d3.ssl.cf1.rackcdn.com/Anaconda2-2.5.0-MacOSX-x86_64.sh
+chmod +x Anaconda2-2.5.0-MacOSX-x86_64.shh
+./Anaconda2-2.5.0-MacOSX-x86_64.sh
 ```
 
 Install Jupyter
